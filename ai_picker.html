@@ -1,0 +1,582 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0"
+    />
+    <meta
+      http-equiv="X-UA-Compatible"
+      content="ie=edge"
+    />
+    <title>Tshego | AI Picker</title>
+    <link
+      rel="shortcut icon"
+      href="img/favicon.ico"
+      type="image/x-icon"
+    />
+    <link
+      rel="stylesheet"
+      href="style.css"
+    />
+  </head>
+  <body>
+    <header class="ai-picker">
+      <div class="container">
+        <nav class="nav">
+          <ul class="nav-list nav-list-mobile">
+            <li class="nav">
+              <!-- <div class="mobile-menu">
+                  <span class="line line-top"></span>
+                  <span class="line line-bottom"></span>
+                </div> -->
+            </li>
+            <li class="nav-item">
+              <a
+                href="index.html"
+                class="nav-link nav-link-apple"
+              ></a>
+            </li>
+            <li class="nav-item">
+              <a
+                href="#"
+                class="nav-link nav-link-bag"
+              ></a>
+            </li>
+          </ul>
+          <!-- /.nav-list nav-list-mobile -->
+          <ul class="nav-list nav-list-larger">
+            <li class="nav-item nav-item-hidden">
+              <a
+                href="index.html"
+                class="nav-link nav-link-apple"
+              ></a>
+            </li>
+
+            <li class="nav-item">
+              <a
+                href="https://www.apple.com/za/mac/"
+                target="_blank"
+                class="nav-link"
+                >Mac</a
+              >
+            </li>
+            <li class="nav-item">
+              <a
+                href="https://www.apple.com/za/ipad/"
+                target="_blank"
+                class="nav-link"
+                >iPad</a
+              >
+            </li>
+            <li class="nav-item">
+              <a
+                href="https://www.apple.com/za/iphone/"
+                class="nav-link"
+                >iPhone</a
+              >
+            </li>
+            <li class="nav-item">
+              <a
+                href="https://www.apple.com/za/watch/"
+                class="nav-link"
+                >Watch</a
+              >
+            </li>
+            <li class="nav-item">
+              <a
+                href="#"
+                class="nav-link"
+                >AI Picker</a
+              >
+            </li>
+            <li class="nav-item">
+              <a
+                href="https://www.istore.co.za/storelocator"
+                target="_blank"
+                class="nav-link"
+                >Where to buy</a
+              >
+            </li>
+            <li class="nav-item">
+              <a
+                class="nav-link nav-link-search"
+                id="search"
+              ></a>
+            </li>
+            <li class="nav-item">
+              <a
+                href="#"
+                class="nav-link nav-link-bag"
+              ></a>
+            </li>
+          </ul>
+          <!-- /.nav-list nav-list-larger -->
+        </nav>
+        <div class="search-container hide white">
+          <div class="nav-link-search"></div>
+          <div class="search-bar">
+            <form action="">
+              <input
+                type="text"
+                placeholder="Search"
+              />
+            </form>
+          </div>
+          <div class="link-close"></div>
+          <div class="quick-links">
+            <h2>Quick Links</h2>
+            <ul>
+              <li>
+                <a href="#">Sign in</a>
+              </li>
+              <li>
+                <a href="ai_picker.html">AI Picker</a>
+              </li>
+              <li>
+                <a href="#">Find a Store</a>
+              </li>
+              <li>
+                <a href="#">Buy Online</a>
+              </li>
+              <li>
+                <a href="#">Hire Me</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="overlay"></div>
+    </header>
+
+    <main>
+      <section class="ai-picker-selection">
+        <div class="container">
+          <div class="nav">
+            <h3 class="title-sub-heading">
+              <strong
+                >Device.
+                <span class="prompt-grey">Which is best for you?</span></strong
+              >
+            </h3>
+            <br />
+            <ul class="nav-list">
+              <li></li>
+              <li></li>
+              <li class="nav-item">
+                <a
+                  href="#"
+                  class="nav-link nav-link-iphone"
+                  id="iphone"
+                ></a>
+                <a
+                  href="#"
+                  class="nav-link-opacity-iphone"
+                  id="iphone"
+                  >iPhone</a
+                >
+              </li>
+              <li class="nav-item">
+                <a
+                  href="#"
+                  class="nav-link nav-link-mac"
+                  id="mac"
+                ></a>
+                <a
+                  href="#"
+                  class="nav-link-opacity-mac"
+                  id="mac"
+                  >Mac Family</a
+                >
+              </li>
+              <li class="nav-item">
+                <a
+                  href="#"
+                  class="nav-link nav-link-ipad"
+                  id="ipad"
+                ></a>
+                <a
+                  href="#"
+                  class="nav-link-opacity-ipad"
+                  id="ipad"
+                  >iPad</a
+                >
+              </li>
+              <li></li>
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </section>
+      <section class="hero ai-hero hero-1"></section>
+      <section class="ai-picker-selection position-modifier-1 round-top">
+        <br />
+        <div class="container">
+          <div class="nav">
+            <h3 class="title-sub-heading">
+              <strong
+                >Storage.
+                <span class="prompt-grey"
+                  >How much space do you need?</span
+                ></strong
+              >
+            </h3>
+            <ul class="nav-list container">
+              <li></li>
+              <li></li>
+              <li class="nav-item">
+                <a
+                  class="cta-link storage-selection-button margin storage-64GB"
+                  id="storage-64GB"
+                  >64<span class="storage-gb">GB</span></a
+                >
+              </li>
+              <li class="nav-item">
+                <a
+                  class="cta-link storage-selection-button margin storage-128GB"
+                  id="storage-128GB"
+                  >128<span class="storage-gb">GB</span></a
+                >
+              </li>
+              <li class="nav-item">
+                <a
+                  class="cta-link storage-selection-button margin storage-256GB"
+                  id="storage-256GB"
+                  >256<span class="storage-gb">GB</span></a
+                >
+              </li>
+              <li class="nav-item">
+                <a
+                  class="cta-link storage-selection-button margin storage-512GB"
+                  id="storage-512GB"
+                  >512<span class="storage-gb">GB</span></a
+                >
+              </li>
+              <li class="nav-item">
+                <a
+                  class="cta-link storage-selection-button margin storage-1TB"
+                  id="storage-1TB"
+                  >1<span class="storage-gb">TB</span></a
+                >
+              </li>
+              <li></li>
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </section>
+      <section class="hero ai-hero hero-2"></section>
+      <section class="ai-picker-selection round-top">
+        <div class="container">
+          <br />
+          <div class="nav">
+            <h3 class="title-sub-heading">
+              <strong
+                >Condition.
+                <span class="prompt-grey">What suits you best?</span></strong
+              >
+            </h3>
+            <ul class="nav-list container">
+              <li></li>
+              <li></li>
+              <li class="nav-item">
+                <a
+                  class="cta-link storage-selection-button margin no-wrap preowned"
+                  id="preowned"
+                  >Pre-Owned</a
+                >
+              </li>
+              <li class="nav-item">
+                <a
+                  class="cta-link storage-selection-button margin notPreowned"
+                  id="notPreowned"
+                  >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;New&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a
+                >
+              </li>
+
+              <li></li>
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </section>
+      <section class="hero ai-hero hero-3"></section>
+      <section class="ai-picker-selection round-top">
+        <div class="container">
+          <br />
+          <div class="nav">
+            <h3 class="title-sub-heading">
+              <strong
+                >Budget.
+                <span class="prompt-grey"
+                  >What's the right price for you?</span
+                ></strong
+              >
+            </h3>
+            <ul class="nav-list container">
+              <li></li>
+              <li></li>
+              <li class="nav-item">
+                <a
+                  class="cta-link storage-selection-button margin no-wrap budget1"
+                  id="budget1"
+                  >5000 +</a
+                >
+              </li>
+              <li class="nav-item">
+                <a
+                  class="cta-link storage-selection-button margin no-wrap budget2"
+                  id="budget2"
+                  >10 000 +</a
+                >
+              </li>
+              <li class="nav-item">
+                <a
+                  class="cta-link storage-selection-button margin no-wrap budget3"
+                  id="budget3"
+                  >15 000 +</a
+                >
+              </li>
+              <li class="nav-item">
+                <a
+                  class="cta-link storage-selection-button margin no-wrap budget4"
+                  id="budget4"
+                  >Above 20 000</a
+                >
+              </li>
+
+              <li></li>
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </section>
+      <section class="hero ai-hero hero-4"></section>
+      <section class="ai-picker-selection round-top flat-bottom">
+        <div class="container for-you">
+          <br />
+          <div class="nav">
+            <h3 class="title-sub-heading">
+              <strong
+                >For you.
+                <span class="prompt-grey"
+                  >Discover your perfect match.</span
+                ></strong
+              >
+            </h3>
+            <ul class="nav-list container">
+              <li></li>
+              <li></li>
+              <li class="nav-item">
+                <a
+                  href="#"
+                  class="cta-link storage-selection-button margin no-wrap"
+                  id="reccomendationLink"
+                  >Here.</a
+                >
+              </li>
+              <li></li>
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </section>
+      <div class="spacer"></div>
+    </main>
+
+    <footer class="footer-styles">
+      <div class="container mobile-hide">
+        <br />
+        Not all Apple Watch straps are available in all regions.
+        <br /><br />
+        <hr />
+        <div class="gridded-footer">
+          <div class="explore">
+            <br />
+            <h4>Explore</h4>
+            <p>
+              <br />
+              <a href="#">Mac</a><br /><br />
+              <a href="#">iPad</a><br /><br />
+              <a href="#">iPhone</a><br /><br />
+              <a href="#">Watch</a><br /><br />
+            </p>
+          </div>
+          <div class="account">
+            <br />
+            <h4>Account</h4>
+            <p>
+              <br />
+              <a href="#">Manage Your Apple Account</a><br /><br />
+              <a href="#">iCloud.com</a><br /><br />
+            </p>
+          </div>
+          <div class="business-education">
+            <br />
+            <h4>For Business</h4>
+            <p>
+              <br />
+              <a href="#">Apple and Business</a><br /><br />
+            </p>
+            <br />
+            <h4>For Education</h4>
+            <p>
+              <br />
+              <a href="#">Apple and Education</a><br /><br />
+            </p>
+          </div>
+          <div class="values-about">
+            <br />
+            <h4>Apple Values</h4>
+            <p>
+              <br />
+              <a href="#">Privacy</a><br /><br />
+            </p>
+            <br />
+            <h4>About Apple</h4>
+            <p>
+              <br />
+              <a href="#">News Room</a><br /><br />
+              <a href="#">Apple Leadership</a><br /><br />
+              <a href="#">Investors</a><br /><br />
+              <a href="#">Ethics & Compliance</a><br /><br />
+              <a href="#">Contact Apple</a><br /><br />
+            </p>
+          </div>
+        </div>
+        <a
+          href="#"
+          class="blue"
+          >Find a retailer</a
+        >
+        near you.
+        <br />
+        <br />
+        <hr />
+        <br />
+        <p>
+          Copyright © 2025 Apple Inc. All rights reserved. Privacy Policy |
+          Terms of Use | Legal | Back to Top <br /><br /><a
+            href="https://www.istore.co.za/"
+            target="_blank"
+            >iStore South Africa</a
+          >
+          <br />
+          <br />
+        </p>
+      </div>
+      <div class="container mobile-show">
+        <br />
+        <aside>
+          <details>
+            <summary>
+              Explore
+              <br />
+              <br />
+              <hr />
+            </summary>
+            <p>
+              <br />
+              <a href="#">Mac</a><br /><br />
+              <a href="#">iPad</a><br /><br />
+              <a href="#">iPhone</a><br /><br />
+              <a href="#">Watch</a><br /><br />
+            </p>
+          </details>
+          <br />
+          <aside>
+            <details>
+              <summary>
+                Account <br /><br />
+                <hr />
+              </summary>
+              <p>
+                <br />
+                <a href="#">Manage Your Apple Account</a><br /><br />
+                <a href="#">iCloud.com</a><br /><br />
+              </p>
+            </details>
+          </aside>
+          <br />
+          <aside>
+            <details>
+              <summary>
+                For Business
+                <br /><br />
+                <hr />
+              </summary>
+              <p>
+                <br />
+                <a href="#">Apple and Business</a><br /><br />
+              </p>
+              <br />
+            </details>
+          </aside>
+          <br />
+          <aside>
+            <details>
+              <summary>
+                For Education <br /><br />
+                <hr />
+              </summary>
+              <p>
+                <br />
+                <a href="#">Apple and Education</a><br /><br />
+              </p>
+            </details>
+          </aside>
+          <br />
+          <aside>
+            <details>
+              <summary>
+                Apple Values <br /><br />
+                <hr />
+              </summary>
+              <p>
+                <br />
+                <a href="#">Privacy</a><br /><br />
+              </p>
+              <br />
+            </details>
+          </aside>
+          <aside>
+            <br />
+            <details>
+              <summary>
+                About Apple <br /><br />
+                <hr />
+              </summary>
+              <p>
+                <br />
+                <a href="#">News Room</a><br /><br />
+                <a href="#">Apple Leadership</a><br /><br />
+                <a href="#">Investors</a><br /><br />
+                <a href="#">Ethics & Compliance</a><br /><br />
+                <a href="#">Contact Apple</a><br /><br />
+              </p>
+              <br /><br />
+            </details>
+          </aside>
+        </aside>
+        <p>
+          <br />
+          <a
+            href="#"
+            class="blue"
+            >Find a retailer</a
+          >
+          near you.
+        </p>
+        <p><br />iStore South Africa</p>
+        <p><br />Copyright © 2025 Apple Inc. All rights reserved.</p>
+        <p>
+          <br /><a href="#">Privacy Policy</a> | <a href="#">Terms of Use</a> |
+          <a href="#">Legal</a> | <a href="#">Site Map</a>
+        </p>
+      </div>
+      <div class="apple-ai"></div>
+    </footer>
+    <script src="main.js"></script>
+  </body>
+</html>

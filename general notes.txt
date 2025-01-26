@@ -1,0 +1,29 @@
+istore
+
+iphone-64gb-
+
+iphone:		https://www.istore.co.za/iphone
+64GB:		show all
+128GB:		?capacity_product=3858%2C3861%2C3864%2C3867%2C3870
+256GB:		?capacity_product=3861%2C3864%2C3867%2C3870
+512GB:		?capacity_product=3864%2C3867%2C3870	
+1TB:		?capacity_product=3867%2C3870	
+end:		&product_list_order=price&product_list_dir=asc
+
+mac:		https://www.istore.co.za/mac/shop-mac-range
+64GB:		show all
+128GB:		show all
+256GB:		show all
+512GB:		?storage=205%2C214%2C3870
+1TB:		?storage=214%2C3870
+end:		&product_list_order=price&product_list_dir=asc
+
+ipad:		https://www.istore.co.za/ipad/shop-ipad-range
+64GB:		show all
+128GB:		?capacity_product=3858%2C3861%2C3864%2C3867%2C3870
+256GB:		?capacity_product=3861%2C3864%2C3867%2C3870
+512GB:		?capacity_product=3864%2C3867%2C3870
+1TB:		?capacity_product=3867%2C3870
+end:		&product_list_order=price&product_list_dir=asc
+
+
